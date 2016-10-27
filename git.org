@@ -1,0 +1,30 @@
+* git 技巧
+
+** HEAD是什么？
+说简单一点，HEAD 就是当前活跃分支的游标。形象的记忆就是：你现在在哪儿，HEAD 就指向哪儿，所以 Git 才知道你在那儿！
+不过 HEAD 并非只能指向分支的最顶端（时间节点距今最近的那个），实际上它可以指向任何一个节点，它就是 Git 内部用来追踪当前位置的东东。
+
+** checkout
+1. 命名新分支，保存修改
+2. 查看指定版本代码
+
+** reset
+1. soft 保持working directory以及index不变
+2. mixed 重置index
+3. hard 都重置
+
+** blame
+查看每一行修改记录
+
+** patch/apply
+保存/应用补丁
+
+** cherry-pick
+摘取某个commit记录
+
+** rebase
+修改commit记录
+
+** reflog
+查看操作记录
+
